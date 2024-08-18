@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- JS-->
+    <script defer src="./js/main.js"></script>
+    <title>Gestor de Mesas</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">G-rest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-contenedor">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item numero-mesa">
+                        <h2 id="numeroMesa" class="num-Mesa">Mesa Numero:</h2>
+                    </li>
+                    <li class="nav-item">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="mesas-contenedor">
+        <section id="botonesMesa" class="gestion-mesas">
+            <div class="mesa-boton mesa-activa" data-mesa="1">Mesa 1</div>
+            <div class="mesa-boton mesa-activa" data-mesa="2">Mesa 2</div>
+            <div class="mesa-boton mesa-activa" data-mesa="3">Mesa 3</div>
+            <div class="mesa-boton mesa-activa" data-mesa="4">Mesa 4</div>
+            <div class="mesa-boton mesa-activa" data-mesa="5">Mesa 5</div>
+            <div class="mesa-boton mesa-activa" data-mesa="6">Mesa 6</div>
+            <div class="mesa-boton mesa-activa" data-mesa="7">Mesa 7</div>
+            <div class="mesa-boton mesa-activa" data-mesa="8">Mesa 8</div>
+            <div class="mesa-boton mesa-activa" data-mesa="9">Mesa 9</div>
+            <div class="mesa-boton mesa-activa" data-mesa="10">Mesa 10</div>
+            <div class="mesa-boton mesa-activa" data-mesa="11">Mesa 11</div>
+            <div class="mesa-boton mesa-activa" data-mesa="12">Mesa 12</div>
+            <div class="mesa-boton mesa-activa" data-mesa="13">Mesa 13</div>
+            <div class="mesa-boton mesa-activa" data-mesa="14">Mesa 14</div>
+            <div class="mesa-boton mesa-activa" data-mesa="15">Mesa 15</div>
+            <div id="pedidoPrev" class="pedido-prev"></div>
+        </section>
+
+        <section class="menuPrincipal">
+            <h3 class="menuPrincipal-titulo">Lista de productos</h3>
+
+            <div class="menu-contenedor">
+                <div id="contenedorProductos" class="scroll-container"></div>
+                <input type="text" id="buscadorProductos" placeholder="Buscar productos...">
+            </div>
+        </section>
+    </main>
+
+    <!-- Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Sweeralert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

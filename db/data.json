@@ -1,0 +1,30 @@
+[
+    {"id": 1, "nombre": "Espresso", "categoria": "infusiones", "precio": 1200}, 
+    {"id": 2, "nombre": "Café con Leche", "categoria": "infusiones", "precio": 1500}, 
+    {"id": 3, "nombre": "Cappuccino", "categoria": "infusiones", "precio": 1520}, 
+    {"id": 4, "nombre": "Americano", "categoria": "infusiones", "precio": 1000}, 
+    {"id": 5, "nombre": "Macchiato", "categoria": "infusiones", "precio": 1700}, 
+    {"id": 6, "nombre": "Moka", "categoria": "infusiones", "precio": 1800}, 
+    {"id": 14, "nombre": "Latte", "categoria": "infusiones", "precio": 1400}, 
+    {"id": 15, "nombre": "Café Mocha", "categoria": "infusiones", "precio": 1600}, 
+    {"id": 16, "nombre": "Té Chai Latte", "categoria": "infusiones", "precio": 1350}, 
+    {"id": 22, "nombre": "Smoothie de fresa", "categoria": "infusiones", "precio": 1500}, 
+    {"id": 23, "nombre": "Jugo de naranja", "categoria": "infusiones", "precio": 1000}, 
+    {"id": 7, "nombre": "Tostadas con mermelada", "categoria": "alimentos", "precio": 500}, 
+    {"id": 8, "nombre": "Croissant", "categoria": "alimentos", "precio": 700}, 
+    {"id": 9, "nombre": "Muffin", "categoria": "alimentos", "precio": 800}, 
+    {"id": 10, "nombre": "Panqueques", "categoria": "alimentos", "precio": 1000}, 
+    {"id": 11, "nombre": "Yogur con granola", "categoria": "alimentos", "precio": 1200}, 
+    {"id": 12, "nombre": "Avena con frutas", "categoria": "alimentos", "precio": 1100}, 
+    {"id": 13, "nombre": "Sandwich de huevo", "categoria": "alimentos", "precio": 1300}, 
+    {"id": 17, "nombre": "Bagel con queso crema", "categoria": "alimentos", "precio": 850}, 
+    {"id": 18, "nombre": "Scone de arándanos", "categoria": "alimentos", "precio": 900}, 
+    {"id": 19, "nombre": "Quiche de espinacas", "categoria": "alimentos", "precio": 1800}, 
+    {"id": 20, "nombre": "Wrap de pollo", "categoria": "alimentos", "precio": 1900}, 
+    {"id": 21, "nombre": "Ensalada César", "categoria": "alimentos", "precio": 2000}, 
+    {"id": 24, "nombre": "Torta de zanahoria", "categoria": "alimentos", "precio": 1400}, 
+    {"id": 25, "nombre": "Brownie de chocolate", "categoria": "alimentos", "precio": 1200}
+]
+
+
+
